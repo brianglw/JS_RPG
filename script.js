@@ -1,10 +1,3 @@
-/*to-do list: 
-    1. change textBox to show how much more gold you need to buy an item
-    2. add an easter egg 
-
-    3. Make a solo-leveling themed RPG game with sprites based on this text-game 
-     Secret enemies & boss on replay mode ; option to play normal/secret mode
-*/
 //asign initial values
 let health = 100;
 let xp = 0;
@@ -164,8 +157,6 @@ function goCave() {
     }
     option4.style.display = "inline";
 }
-
-//text functions: everytime you beat a new monster, new text appears at the town square. When you beat gargoyle, villagers will look at you and the fight dragon boss is unlocked.
 
 //Store functions
 function buyHealth() { 
@@ -422,4 +413,5 @@ function pick2() {
 function pick8() { 
     pick(8);
     console.log("I picked 4");
+
 }
