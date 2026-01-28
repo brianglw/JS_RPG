@@ -1,2 +1,2 @@
 # JS_RPG
-A roleplaying game coded in vanilla JavaScript with a twist, inspired by FreeCodeCamp.
+A roleplaying game coded in vanilla JavaScript with a gameplay and storytelling twist, inspired by FreeCodeCamp.
