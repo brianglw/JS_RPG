@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="rpg.css">
+</head>
+<body>
+    <div class="gameboy">
+        <!--
+        1. stat box 
+        2. player actions box 
+        3. monster stat box
+        4. text box 
+        -->
+        <!--Player Stat box-->
+        <div id="playerStats">
+            <span class="text">XP: <span id="playerXP">0</span></span>
+            <span class="text">Health: <span id="playerHealth">100</span></span>
+            <span class="text">Gold: <span id="playerGold">40</span></span>
+        </div>
+        <!--Player actions box-->
+        <div id="actions">
+            <button type="button" id="option1">Go to store</button>
+            <button type="button" id="option2">Go to cave</button>
+            <button type="button" id="option3">Fight dragon</button>
+            <button type ="button" id="option4"></button>
+        </div>
+        <!--Monster stat box-->
+        <div id="monsterStats">
+            <span class="text">Monster Name: <span id="monsterName">Goblin</span></span>
+            <span class="text">Health: <span id="monsterHealth">20</span></span>
+        </div>
+        <!--Text box -->
+        <div class="dialogue text" id="textBox">
+            Welcome to the Solo Leveling Fan Project. You must grow stronger and 
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
